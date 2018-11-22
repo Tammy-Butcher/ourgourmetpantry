@@ -1,0 +1,41 @@
+body {
+	background: #3C3B3F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/* navbar items*/
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.nav-item active {
+	color: orange;
+}
+
+
+/* background image */
+
+#bg {
+  background-image: url("img/ingredients.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10; 
+}
+
+#bg-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0,0,0,0.3);
+}
